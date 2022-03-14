@@ -2,6 +2,10 @@
 int main(void)
 {
   int ch;
-  ch = 65;
-  putchar(ch);
+  ch = 'A';
+  for (ch = 'A'; ch<='Z' ; ch++)
+  {
+	  putchar(ch);
+  }
+  putchar('\n');
 }
