@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(void)
+{
+  char ch;
+  ch = 'A';
+  printf("%d\n", ch);
+}
